@@ -63,4 +63,12 @@ const person = {
   isMale: true,
 };
 
-console.log(person.name);
+console.log(person.name); //recommend dot notation
+
+const messageInfo = {
+  userImage:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5UBo7j8vy15igz8rpaJYgiw0he8MstChXxQ&s",
+  userName: "Coldplay",
+  message: "안녕하세요",
+  role: "assistant",
+};
