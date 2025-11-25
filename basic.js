@@ -4,7 +4,7 @@ console.log("hello world");
 
 const milkCaramel = "빨간펜";
 let youtube = "후츠릿";
-youtube = "십오야";
+youtube = "channel";
 console.log("🚀 ~ youtube:", youtube);
 
 console.log("milk caramel", milkCaramel);
@@ -15,10 +15,25 @@ console.log("🚀 ~ age:", age, typeof age);
 const isComing = true;
 console.log("🚀 ~ isComing:", isComing, typeof isComing);
 
-function sayHello() {
-  console.log("hello world");
+function sayHello(username, usermbti) {
+  // console.log("반갑습니다." + username + "님" + "mbti는" + usermbti + "이시군요");
+
+  // using backtick
+  console.log(`반갑습니다. ${username}님 mbti는 ${usermbti} 이시군요`);
 }
 
-sayHello();
-sayHello();
-sayHello();
+const data = "jiuk";
+const mbti = "INTP";
+sayHello(data, mbti);
+// sayHello();
+// sayHello();
+
+// return
+
+const num1 = 1;
+const num2 = 2;
+function sum(num1, num2) {
+  return num1 + num2;
+}
+
+console.log(sum(num1, num2));
