@@ -32,8 +32,18 @@ sayHello(data, mbti);
 
 const num1 = 1;
 const num2 = 2;
-function sum(num1, num2) {
-  return num1 + num2;
-}
+// function sum(num1, num2) {
+//   return num1 + num2;
+// }
 
-console.log(sum(num1, num2));
+// console.log(sum(num1, num2));
+
+// 화살표 함수
+const sum = (a, b) => a + b;
+
+console.log(sum(10, 20));
+
+const toUpper = (string) => string.toUpperCase();
+
+const resultString = toUpper("chutzrit");
+console.log("🚀 ~ resultString:", resultString);
