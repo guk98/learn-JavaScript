@@ -56,10 +56,10 @@ console.log(ingredients.length);
 
 //객체 -> JS에는 (key:value) pair로 object가 구성
 const person = {
-  name: "최지욱",
-  mbti: "INTP",
-  company: "한국도로공사",
-  city: "김천",
+  name: "my name",
+  mbti: "my mbti",
+  company: "company name",
+  city: "city name",
   isMale: true,
 };
 
