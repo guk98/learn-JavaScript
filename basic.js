@@ -15,16 +15,16 @@ console.log("🚀 ~ age:", age, typeof age);
 const isComing = true;
 console.log("🚀 ~ isComing:", isComing, typeof isComing);
 
-function sayHello(username, usermbti) {
-  // console.log("반갑습니다." + username + "님" + "mbti는" + usermbti + "이시군요");
+// function sayHello(username, usermbti) {
+//   // console.log("반갑습니다." + username + "님" + "mbti는" + usermbti + "이시군요");
 
-  // using backtick
-  console.log(`반갑습니다. ${username}님 mbti는 ${usermbti} 이시군요`);
-}
+//   // using backtick
+//   console.log(`반갑습니다. ${username}님 mbti는 ${usermbti} 이시군요`);
+// }
 
-const data = "jiuk";
-const mbti = "INTP";
-sayHello(data, mbti);
+// const data = "jiuk";
+// const mbti = "INTP";
+// sayHello(data, mbti);
 // sayHello();
 // sayHello();
 
@@ -47,3 +47,12 @@ const toUpper = (string) => string.toUpperCase();
 
 const resultString = toUpper("chutzrit");
 console.log("🚀 ~ resultString:", resultString);
+
+const sayHello = (username = "username", usermbti = "usermbti") => {
+  // console.log("반갑습니다." + username + "님" + "mbti는" + usermbti + "이시군요");
+
+  // using backtick
+  console.log(`반갑습니다. ${username}님 mbti는 ${usermbti} 이시군요`);
+};
+
+sayHello();
